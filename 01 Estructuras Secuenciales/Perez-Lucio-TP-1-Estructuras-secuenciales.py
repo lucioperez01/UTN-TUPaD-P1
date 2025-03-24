@@ -29,9 +29,8 @@ print(f"Soy {nombre} {apellido}, tengo {edad} años y vivo en {residencia}")
 # 4) Crear un programa que pida al usuario el radio de un círculo e imprima por pantalla su área y
 # su perímetro.
 
-import math
+from math import pi
 radio = float(input("Ingrese el radio de un círculo: "))
-pi = math.pi
 perimetro = 2*radio*pi
 area = pi*(radio**2)
 print(f"El área del círculo es: {round(area,2)}cm2 y su perimetro es: {round(perimetro,2)}cm")
